@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata, Viewport } from "next";
 import { Amiri, Amiri_Quran, Geist, Noto_Naskh_Arabic } from "next/font/google";
 import { AppShell } from "@/components/layout/app-shell";
@@ -65,6 +66,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           <AppShell>{children}</AppShell>
         </AppProvider>
         <ServiceWorkerRegister />
+        <Analytics />
       </body>
     </html>
   );
