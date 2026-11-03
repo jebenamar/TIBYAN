@@ -4,5 +4,10 @@ allowBuilds:
   esbuild: true
   workerd: false
   '@embedded-postgres/windows-x64': true
+  # Local-dev Postgres only; not needed on Vercel/CI.
+  '@embedded-postgres/linux-x64': false
+  '@embedded-postgres/linux-arm64': false
+  '@embedded-postgres/darwin-x64': false
+  '@embedded-postgres/darwin-arm64': false
   '@prisma/engines': true
   prisma: true
