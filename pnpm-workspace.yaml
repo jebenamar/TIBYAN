@@ -1,3 +1,19 @@
+# Do not fail installs because a dependency (e.g. the local-dev Postgres binaries) has an unapproved build script.
+strictDepBuilds: false
+# Same intent expressed for pnpm 10 (allowBuilds is the pnpm 11+ key).
+ignoredBuiltDependencies:
+  - sharp
+  - unrs-resolver
+  - workerd
+  - '@embedded-postgres/linux-x64'
+  - '@embedded-postgres/linux-arm64'
+  - '@embedded-postgres/darwin-x64'
+  - '@embedded-postgres/darwin-arm64'
+onlyBuiltDependencies:
+  - esbuild
+  - '@embedded-postgres/windows-x64'
+  - '@prisma/engines'
+  - prisma
 allowBuilds:
   sharp: false
   unrs-resolver: false
