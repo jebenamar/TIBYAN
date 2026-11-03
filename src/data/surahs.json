@@ -1,0 +1,2094 @@
+[
+ {
+  "number": 1,
+  "nameArabic": "الفاتحة",
+  "nameTransliterated": "Al-Fatihah",
+  "aliases": [
+   "Al-Faatiha",
+   "Al-Fātiĥah",
+   "Al-Fatihah",
+   "الفاتحة"
+  ],
+  "names": {
+   "en": "The Opener",
+   "fr": "L'ouverture",
+   "es": "La Apertura"
+  },
+  "versesCount": 7,
+  "firstGlobalAyah": 1,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 2,
+  "nameArabic": "البقرة",
+  "nameTransliterated": "Al-Baqarah",
+  "aliases": [
+   "Al-Baqara",
+   "Al-Baqarah",
+   "البقرة"
+  ],
+  "names": {
+   "en": "The Cow",
+   "fr": "La vache",
+   "es": "La Vaca"
+  },
+  "versesCount": 286,
+  "firstGlobalAyah": 8,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 3,
+  "nameArabic": "آل عمران",
+  "nameTransliterated": "Ali 'Imran",
+  "aliases": [
+   "Aal-i-Imraan",
+   "Āli `Imrān",
+   "Ali 'Imran",
+   "آل عمران"
+  ],
+  "names": {
+   "en": "Family of Imran",
+   "fr": "La famille de 'imran",
+   "es": "La Familia de Imran"
+  },
+  "versesCount": 200,
+  "firstGlobalAyah": 294,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 4,
+  "nameArabic": "النساء",
+  "nameTransliterated": "An-Nisa",
+  "aliases": [
+   "An-Nisaa",
+   "An-Nisā",
+   "An-Nisa",
+   "النساء"
+  ],
+  "names": {
+   "en": "The Women",
+   "fr": "Les femmes",
+   "es": "Las Mujeres"
+  },
+  "versesCount": 176,
+  "firstGlobalAyah": 494,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 5,
+  "nameArabic": "المائدة",
+  "nameTransliterated": "Al-Ma'idah",
+  "aliases": [
+   "Al-Maaida",
+   "Al-Mā'idah",
+   "Al-Ma'idah",
+   "المائدة"
+  ],
+  "names": {
+   "en": "The Table Spread",
+   "fr": "La table servie",
+   "es": "La Mesa Servida"
+  },
+  "versesCount": 120,
+  "firstGlobalAyah": 670,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 6,
+  "nameArabic": "الأنعام",
+  "nameTransliterated": "Al-An'am",
+  "aliases": [
+   "Al-An'aam",
+   "Al-'An`ām",
+   "Al-An'am",
+   "الأنعام"
+  ],
+  "names": {
+   "en": "The Cattle",
+   "fr": "Les bestiaux",
+   "es": "Los Rebaños"
+  },
+  "versesCount": 165,
+  "firstGlobalAyah": 790,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 7,
+  "nameArabic": "الأعراف",
+  "nameTransliterated": "Al-A'raf",
+  "aliases": [
+   "Al-A'raaf",
+   "Al-'A`rāf",
+   "Al-A'raf",
+   "الأعراف"
+  ],
+  "names": {
+   "en": "The Heights",
+   "fr": "Al-A'raf",
+   "es": "Los Lugares Elevados"
+  },
+  "versesCount": 206,
+  "firstGlobalAyah": 955,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 8,
+  "nameArabic": "الأنفال",
+  "nameTransliterated": "Al-Anfal",
+  "aliases": [
+   "Al-Anfaal",
+   "Al-'Anfāl",
+   "Al-Anfal",
+   "الأنفال"
+  ],
+  "names": {
+   "en": "The Spoils of War",
+   "fr": "Le butin",
+   "es": "Los Botines de Guerra"
+  },
+  "versesCount": 75,
+  "firstGlobalAyah": 1161,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 9,
+  "nameArabic": "التوبة",
+  "nameTransliterated": "At-Tawbah",
+  "aliases": [
+   "At-Tawba",
+   "At-Tawbah",
+   "التوبة"
+  ],
+  "names": {
+   "en": "The Repentance",
+   "fr": "Le repentir",
+   "es": "El Arrepentimiento"
+  },
+  "versesCount": 129,
+  "firstGlobalAyah": 1236,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 10,
+  "nameArabic": "يونس",
+  "nameTransliterated": "Yunus",
+  "aliases": [
+   "Yunus",
+   "Yūnus",
+   "يونس"
+  ],
+  "names": {
+   "en": "Jonah",
+   "fr": "Jonas",
+   "es": "Jonás"
+  },
+  "versesCount": 109,
+  "firstGlobalAyah": 1365,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 11,
+  "nameArabic": "هود",
+  "nameTransliterated": "Hud",
+  "aliases": [
+   "Hud",
+   "Hūd",
+   "هود"
+  ],
+  "names": {
+   "en": "Hud",
+   "fr": "Houd",
+   "es": "Hud"
+  },
+  "versesCount": 123,
+  "firstGlobalAyah": 1474,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 12,
+  "nameArabic": "يوسف",
+  "nameTransliterated": "Yusuf",
+  "aliases": [
+   "Yusuf",
+   "Yūsuf",
+   "يوسف"
+  ],
+  "names": {
+   "en": "Joseph",
+   "fr": "Joseph",
+   "es": "José"
+  },
+  "versesCount": 111,
+  "firstGlobalAyah": 1597,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 13,
+  "nameArabic": "الرعد",
+  "nameTransliterated": "Ar-Ra'd",
+  "aliases": [
+   "Ar-Ra'd",
+   "Ar-Ra`d",
+   "الرعد"
+  ],
+  "names": {
+   "en": "The Thunder",
+   "fr": "Le tonnerre",
+   "es": "El Trueno"
+  },
+  "versesCount": 43,
+  "firstGlobalAyah": 1708,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 14,
+  "nameArabic": "ابراهيم",
+  "nameTransliterated": "Ibrahim",
+  "aliases": [
+   "Ibrahim",
+   "Ibrāhīm",
+   "ابراهيم"
+  ],
+  "names": {
+   "en": "Abraham",
+   "fr": "Abraham",
+   "es": "Abraham"
+  },
+  "versesCount": 52,
+  "firstGlobalAyah": 1751,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 15,
+  "nameArabic": "الحجر",
+  "nameTransliterated": "Al-Hijr",
+  "aliases": [
+   "Al-Hijr",
+   "Al-Ĥijr",
+   "الحجر"
+  ],
+  "names": {
+   "en": "The Rocky Tract",
+   "fr": "Al-Hijr",
+   "es": "Al-Hiyr"
+  },
+  "versesCount": 99,
+  "firstGlobalAyah": 1803,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 16,
+  "nameArabic": "النحل",
+  "nameTransliterated": "An-Nahl",
+  "aliases": [
+   "An-Nahl",
+   "An-Naĥl",
+   "النحل"
+  ],
+  "names": {
+   "en": "The Bee",
+   "fr": "Les abeilles",
+   "es": "Las Abejas"
+  },
+  "versesCount": 128,
+  "firstGlobalAyah": 1902,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 17,
+  "nameArabic": "الإسراء",
+  "nameTransliterated": "Al-Isra",
+  "aliases": [
+   "Al-Israa",
+   "Al-'Isrā",
+   "Al-Isra",
+   "الإسراء"
+  ],
+  "names": {
+   "en": "The Night Journey",
+   "fr": "Le voyage nocturne",
+   "es": "El Viaje Nocturno"
+  },
+  "versesCount": 111,
+  "firstGlobalAyah": 2030,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 18,
+  "nameArabic": "الكهف",
+  "nameTransliterated": "Al-Kahf",
+  "aliases": [
+   "Al-Kahf",
+   "الكهف"
+  ],
+  "names": {
+   "en": "The Cave",
+   "fr": "La caverne",
+   "es": "La Caverna"
+  },
+  "versesCount": 110,
+  "firstGlobalAyah": 2141,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 19,
+  "nameArabic": "مريم",
+  "nameTransliterated": "Maryam",
+  "aliases": [
+   "Maryam",
+   "مريم"
+  ],
+  "names": {
+   "en": "Mary",
+   "fr": "Marie",
+   "es": "María"
+  },
+  "versesCount": 98,
+  "firstGlobalAyah": 2251,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 20,
+  "nameArabic": "طه",
+  "nameTransliterated": "Taha",
+  "aliases": [
+   "Taa-Haa",
+   "Ţāhā",
+   "Taha",
+   "طه"
+  ],
+  "names": {
+   "en": "Ta-Ha",
+   "fr": "Ta-Ha",
+   "es": "Ta-Ha"
+  },
+  "versesCount": 135,
+  "firstGlobalAyah": 2349,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 21,
+  "nameArabic": "الأنبياء",
+  "nameTransliterated": "Al-Anbya",
+  "aliases": [
+   "Al-Anbiyaa",
+   "Al-'Anbyā",
+   "Al-Anbya",
+   "الأنبياء"
+  ],
+  "names": {
+   "en": "The Prophets",
+   "fr": "Les prophètes",
+   "es": "Los Profetas"
+  },
+  "versesCount": 112,
+  "firstGlobalAyah": 2484,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 22,
+  "nameArabic": "الحج",
+  "nameTransliterated": "Al-Hajj",
+  "aliases": [
+   "Al-Hajj",
+   "Al-Ĥajj",
+   "الحج"
+  ],
+  "names": {
+   "en": "The Pilgrimage",
+   "fr": "Le pèlerinage",
+   "es": "La Peregrinación"
+  },
+  "versesCount": 78,
+  "firstGlobalAyah": 2596,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 23,
+  "nameArabic": "المؤمنون",
+  "nameTransliterated": "Al-Mu'minun",
+  "aliases": [
+   "Al-Muminoon",
+   "Al-Mu'minūn",
+   "Al-Mu'minun",
+   "المؤمنون"
+  ],
+  "names": {
+   "en": "The Believers",
+   "fr": "Les croyants",
+   "es": "Los Creyentes"
+  },
+  "versesCount": 118,
+  "firstGlobalAyah": 2674,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 24,
+  "nameArabic": "النور",
+  "nameTransliterated": "An-Nur",
+  "aliases": [
+   "An-Noor",
+   "An-Nūr",
+   "An-Nur",
+   "النور"
+  ],
+  "names": {
+   "en": "The Light",
+   "fr": "La lumière",
+   "es": "La Luz"
+  },
+  "versesCount": 64,
+  "firstGlobalAyah": 2792,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 25,
+  "nameArabic": "الفرقان",
+  "nameTransliterated": "Al-Furqan",
+  "aliases": [
+   "Al-Furqaan",
+   "Al-Furqān",
+   "Al-Furqan",
+   "الفرقان"
+  ],
+  "names": {
+   "en": "The Criterion",
+   "fr": "Le discernement",
+   "es": "El Discernimiento"
+  },
+  "versesCount": 77,
+  "firstGlobalAyah": 2856,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 26,
+  "nameArabic": "الشعراء",
+  "nameTransliterated": "Ash-Shu'ara",
+  "aliases": [
+   "Ash-Shu'araa",
+   "Ash-Shu`arā",
+   "Ash-Shu'ara",
+   "الشعراء"
+  ],
+  "names": {
+   "en": "The Poets",
+   "fr": "Les poètes",
+   "es": "Los Poetas"
+  },
+  "versesCount": 227,
+  "firstGlobalAyah": 2933,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 27,
+  "nameArabic": "النمل",
+  "nameTransliterated": "An-Naml",
+  "aliases": [
+   "An-Naml",
+   "النمل"
+  ],
+  "names": {
+   "en": "The Ant",
+   "fr": "Les fourmis",
+   "es": "Las Hormigas"
+  },
+  "versesCount": 93,
+  "firstGlobalAyah": 3160,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 28,
+  "nameArabic": "القصص",
+  "nameTransliterated": "Al-Qasas",
+  "aliases": [
+   "Al-Qasas",
+   "Al-Qaşaş",
+   "القصص"
+  ],
+  "names": {
+   "en": "The Stories",
+   "fr": "Le récit",
+   "es": "Los Relatos"
+  },
+  "versesCount": 88,
+  "firstGlobalAyah": 3253,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 29,
+  "nameArabic": "العنكبوت",
+  "nameTransliterated": "Al-'Ankabut",
+  "aliases": [
+   "Al-Ankaboot",
+   "Al-`Ankabūt",
+   "Al-'Ankabut",
+   "العنكبوت"
+  ],
+  "names": {
+   "en": "The Spider",
+   "fr": "L'araignée",
+   "es": "La Araña"
+  },
+  "versesCount": 69,
+  "firstGlobalAyah": 3341,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 30,
+  "nameArabic": "الروم",
+  "nameTransliterated": "Ar-Rum",
+  "aliases": [
+   "Ar-Room",
+   "Ar-Rūm",
+   "Ar-Rum",
+   "الروم"
+  ],
+  "names": {
+   "en": "The Romans",
+   "fr": "Les romains",
+   "es": "Los Romanos"
+  },
+  "versesCount": 60,
+  "firstGlobalAyah": 3410,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 31,
+  "nameArabic": "لقمان",
+  "nameTransliterated": "Luqman",
+  "aliases": [
+   "Luqman",
+   "Luqmān",
+   "لقمان"
+  ],
+  "names": {
+   "en": "Luqman",
+   "fr": "Louqman",
+   "es": "Luqmán"
+  },
+  "versesCount": 34,
+  "firstGlobalAyah": 3470,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 32,
+  "nameArabic": "السجدة",
+  "nameTransliterated": "As-Sajdah",
+  "aliases": [
+   "As-Sajda",
+   "As-Sajdah",
+   "السجدة"
+  ],
+  "names": {
+   "en": "The Prostration",
+   "fr": "La prosternation",
+   "es": "La Postración"
+  },
+  "versesCount": 30,
+  "firstGlobalAyah": 3504,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 33,
+  "nameArabic": "الأحزاب",
+  "nameTransliterated": "Al-Ahzab",
+  "aliases": [
+   "Al-Ahzaab",
+   "Al-'Aĥzāb",
+   "Al-Ahzab",
+   "الأحزاب"
+  ],
+  "names": {
+   "en": "The Combined Forces",
+   "fr": "Les coalisés",
+   "es": "Los Coligados"
+  },
+  "versesCount": 73,
+  "firstGlobalAyah": 3534,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 34,
+  "nameArabic": "سبإ",
+  "nameTransliterated": "Saba",
+  "aliases": [
+   "Saba",
+   "سبإ"
+  ],
+  "names": {
+   "en": "Sheba",
+   "fr": "Saba'",
+   "es": "Saba"
+  },
+  "versesCount": 54,
+  "firstGlobalAyah": 3607,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 35,
+  "nameArabic": "فاطر",
+  "nameTransliterated": "Fatir",
+  "aliases": [
+   "Faatir",
+   "Fāţir",
+   "Fatir",
+   "فاطر"
+  ],
+  "names": {
+   "en": "Originator",
+   "fr": "Le Créateur",
+   "es": "El Originador"
+  },
+  "versesCount": 45,
+  "firstGlobalAyah": 3661,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 36,
+  "nameArabic": "يس",
+  "nameTransliterated": "Ya-Sin",
+  "aliases": [
+   "Yaseen",
+   "Yā-Sīn",
+   "Ya-Sin",
+   "يس"
+  ],
+  "names": {
+   "en": "Ya Sin",
+   "fr": "Ya-Sin",
+   "es": "Ya Sin"
+  },
+  "versesCount": 83,
+  "firstGlobalAyah": 3706,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 37,
+  "nameArabic": "الصافات",
+  "nameTransliterated": "As-Saffat",
+  "aliases": [
+   "As-Saaffaat",
+   "Aş-Şāffāt",
+   "As-Saffat",
+   "الصافات"
+  ],
+  "names": {
+   "en": "Those who set the Ranks",
+   "fr": "Les rangés",
+   "es": "Los Que se Ponen en Filas"
+  },
+  "versesCount": 182,
+  "firstGlobalAyah": 3789,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 38,
+  "nameArabic": "ص",
+  "nameTransliterated": "Sad",
+  "aliases": [
+   "Saad",
+   "Şād",
+   "Sad",
+   "ص"
+  ],
+  "names": {
+   "en": "The Letter \"Saad\"",
+   "fr": "Sad",
+   "es": "Sad"
+  },
+  "versesCount": 88,
+  "firstGlobalAyah": 3971,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 39,
+  "nameArabic": "الزمر",
+  "nameTransliterated": "Az-Zumar",
+  "aliases": [
+   "Az-Zumar",
+   "الزمر"
+  ],
+  "names": {
+   "en": "The Troops",
+   "fr": "Les groupes",
+   "es": "Los Grupos"
+  },
+  "versesCount": 75,
+  "firstGlobalAyah": 4059,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 40,
+  "nameArabic": "غافر",
+  "nameTransliterated": "Ghafir",
+  "aliases": [
+   "Al-Ghaafir",
+   "Ghāfir",
+   "Ghafir",
+   "غافر"
+  ],
+  "names": {
+   "en": "The Forgiver",
+   "fr": "Le Pardonneur",
+   "es": "El Perdonador"
+  },
+  "versesCount": 85,
+  "firstGlobalAyah": 4134,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 41,
+  "nameArabic": "فصلت",
+  "nameTransliterated": "Fussilat",
+  "aliases": [
+   "Fussilat",
+   "Fuşşilat",
+   "فصلت"
+  ],
+  "names": {
+   "en": "Explained in Detail",
+   "fr": "Les versets explicites",
+   "es": "Se Han Expresado Con Claridad"
+  },
+  "versesCount": 54,
+  "firstGlobalAyah": 4219,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 42,
+  "nameArabic": "الشورى",
+  "nameTransliterated": "Ash-Shuraa",
+  "aliases": [
+   "Ash-Shura",
+   "Ash-Shūraá",
+   "Ash-Shuraa",
+   "الشورى"
+  ],
+  "names": {
+   "en": "The Consultation",
+   "fr": "La concertation",
+   "es": "La Consulta"
+  },
+  "versesCount": 53,
+  "firstGlobalAyah": 4273,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 43,
+  "nameArabic": "الزخرف",
+  "nameTransliterated": "Az-Zukhruf",
+  "aliases": [
+   "Az-Zukhruf",
+   "الزخرف"
+  ],
+  "names": {
+   "en": "The Ornaments of Gold",
+   "fr": "L'ornement",
+   "es": "Los Dorados"
+  },
+  "versesCount": 89,
+  "firstGlobalAyah": 4326,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 44,
+  "nameArabic": "الدخان",
+  "nameTransliterated": "Ad-Dukhan",
+  "aliases": [
+   "Ad-Dukhaan",
+   "Ad-Dukhān",
+   "Ad-Dukhan",
+   "الدخان"
+  ],
+  "names": {
+   "en": "The Smoke",
+   "fr": "La fumée",
+   "es": "El Humo"
+  },
+  "versesCount": 59,
+  "firstGlobalAyah": 4415,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 45,
+  "nameArabic": "الجاثية",
+  "nameTransliterated": "Al-Jathiyah",
+  "aliases": [
+   "Al-Jaathiya",
+   "Al-Jāthiyah",
+   "Al-Jathiyah",
+   "الجاثية"
+  ],
+  "names": {
+   "en": "The Crouching",
+   "fr": "L'agenouillée",
+   "es": "La Arrodillada"
+  },
+  "versesCount": 37,
+  "firstGlobalAyah": 4474,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 46,
+  "nameArabic": "الأحقاف",
+  "nameTransliterated": "Al-Ahqaf",
+  "aliases": [
+   "Al-Ahqaf",
+   "Al-'Aĥqāf",
+   "الأحقاف"
+  ],
+  "names": {
+   "en": "The Wind-Curved Sandhills",
+   "fr": "Al-Ahqaf",
+   "es": "Las Dunas"
+  },
+  "versesCount": 35,
+  "firstGlobalAyah": 4511,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 47,
+  "nameArabic": "محمد",
+  "nameTransliterated": "Muhammad",
+  "aliases": [
+   "Muhammad",
+   "Muĥammad",
+   "محمد"
+  ],
+  "names": {
+   "en": "Muhammad",
+   "fr": "Mouhammad",
+   "es": "Muhammad"
+  },
+  "versesCount": 38,
+  "firstGlobalAyah": 4546,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 48,
+  "nameArabic": "الفتح",
+  "nameTransliterated": "Al-Fath",
+  "aliases": [
+   "Al-Fath",
+   "Al-Fatĥ",
+   "الفتح"
+  ],
+  "names": {
+   "en": "The Victory",
+   "fr": "La victoire éclatante",
+   "es": "La Victoria"
+  },
+  "versesCount": 29,
+  "firstGlobalAyah": 4584,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 49,
+  "nameArabic": "الحجرات",
+  "nameTransliterated": "Al-Hujurat",
+  "aliases": [
+   "Al-Hujuraat",
+   "Al-Ĥujurāt",
+   "Al-Hujurat",
+   "الحجرات"
+  ],
+  "names": {
+   "en": "The Rooms",
+   "fr": "Les appartements",
+   "es": "Los Aposentos Privados"
+  },
+  "versesCount": 18,
+  "firstGlobalAyah": 4613,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 50,
+  "nameArabic": "ق",
+  "nameTransliterated": "Qaf",
+  "aliases": [
+   "Qaaf",
+   "Qāf",
+   "Qaf",
+   "ق"
+  ],
+  "names": {
+   "en": "The Letter \"Qaf\"",
+   "fr": "Qaf",
+   "es": "Qaf"
+  },
+  "versesCount": 45,
+  "firstGlobalAyah": 4631,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 51,
+  "nameArabic": "الذاريات",
+  "nameTransliterated": "Adh-Dhariyat",
+  "aliases": [
+   "Adh-Dhaariyat",
+   "Adh-Dhāriyāt",
+   "Adh-Dhariyat",
+   "الذاريات"
+  ],
+  "names": {
+   "en": "The Winnowing Winds",
+   "fr": "Qui éparpillent",
+   "es": "Los Que Levantan un Torbellino"
+  },
+  "versesCount": 60,
+  "firstGlobalAyah": 4676,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 52,
+  "nameArabic": "الطور",
+  "nameTransliterated": "At-Tur",
+  "aliases": [
+   "At-Tur",
+   "Aţ-Ţūr",
+   "الطور"
+  ],
+  "names": {
+   "en": "The Mount",
+   "fr": "Le mont At-Tour",
+   "es": "El Monte"
+  },
+  "versesCount": 49,
+  "firstGlobalAyah": 4736,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 53,
+  "nameArabic": "النجم",
+  "nameTransliterated": "An-Najm",
+  "aliases": [
+   "An-Najm",
+   "النجم"
+  ],
+  "names": {
+   "en": "The Star",
+   "fr": "L'étoile",
+   "es": "El Astro"
+  },
+  "versesCount": 62,
+  "firstGlobalAyah": 4785,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 54,
+  "nameArabic": "القمر",
+  "nameTransliterated": "Al-Qamar",
+  "aliases": [
+   "Al-Qamar",
+   "القمر"
+  ],
+  "names": {
+   "en": "The Moon",
+   "fr": "La lune",
+   "es": "La Luna"
+  },
+  "versesCount": 55,
+  "firstGlobalAyah": 4847,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 55,
+  "nameArabic": "الرحمن",
+  "nameTransliterated": "Ar-Rahman",
+  "aliases": [
+   "Ar-Rahmaan",
+   "Ar-Raĥmān",
+   "Ar-Rahman",
+   "الرحمن"
+  ],
+  "names": {
+   "en": "The Beneficent",
+   "fr": "Le Tout Miséricordieux",
+   "es": "El Misericordioso"
+  },
+  "versesCount": 78,
+  "firstGlobalAyah": 4902,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 56,
+  "nameArabic": "الواقعة",
+  "nameTransliterated": "Al-Waqi'ah",
+  "aliases": [
+   "Al-Waaqia",
+   "Al-Wāqi`ah",
+   "Al-Waqi'ah",
+   "الواقعة"
+  ],
+  "names": {
+   "en": "The Inevitable",
+   "fr": "L'inévitable",
+   "es": "Lo Que ha de Ocurrir"
+  },
+  "versesCount": 96,
+  "firstGlobalAyah": 4980,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 57,
+  "nameArabic": "الحديد",
+  "nameTransliterated": "Al-Hadid",
+  "aliases": [
+   "Al-Hadid",
+   "Al-Ĥadīd",
+   "الحديد"
+  ],
+  "names": {
+   "en": "The Iron",
+   "fr": "Le fer",
+   "es": "El Hierro"
+  },
+  "versesCount": 29,
+  "firstGlobalAyah": 5076,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 58,
+  "nameArabic": "المجادلة",
+  "nameTransliterated": "Al-Mujadila",
+  "aliases": [
+   "Al-Mujaadila",
+   "Al-Mujādila",
+   "Al-Mujadila",
+   "المجادلة"
+  ],
+  "names": {
+   "en": "The Pleading Woman",
+   "fr": "La discussion",
+   "es": "La Discusión"
+  },
+  "versesCount": 22,
+  "firstGlobalAyah": 5105,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 59,
+  "nameArabic": "الحشر",
+  "nameTransliterated": "Al-Hashr",
+  "aliases": [
+   "Al-Hashr",
+   "Al-Ĥashr",
+   "الحشر"
+  ],
+  "names": {
+   "en": "The Exile",
+   "fr": "L'exode",
+   "es": "La Concentración"
+  },
+  "versesCount": 24,
+  "firstGlobalAyah": 5127,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 60,
+  "nameArabic": "الممتحنة",
+  "nameTransliterated": "Al-Mumtahanah",
+  "aliases": [
+   "Al-Mumtahana",
+   "Al-Mumtaĥanah",
+   "Al-Mumtahanah",
+   "الممتحنة"
+  ],
+  "names": {
+   "en": "She that is to be examined",
+   "fr": "L'éprouvée",
+   "es": "La Examinada"
+  },
+  "versesCount": 13,
+  "firstGlobalAyah": 5151,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 61,
+  "nameArabic": "الصف",
+  "nameTransliterated": "As-Saf",
+  "aliases": [
+   "As-Saff",
+   "Aş-Şaf",
+   "As-Saf",
+   "الصف"
+  ],
+  "names": {
+   "en": "The Ranks",
+   "fr": "Le rang",
+   "es": "La Fila"
+  },
+  "versesCount": 14,
+  "firstGlobalAyah": 5164,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 62,
+  "nameArabic": "الجمعة",
+  "nameTransliterated": "Al-Jumu'ah",
+  "aliases": [
+   "Al-Jumu'a",
+   "Al-Jumu`ah",
+   "Al-Jumu'ah",
+   "الجمعة"
+  ],
+  "names": {
+   "en": "The Congregation, Friday",
+   "fr": "Le vendredi",
+   "es": "El Viernes"
+  },
+  "versesCount": 11,
+  "firstGlobalAyah": 5178,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 63,
+  "nameArabic": "المنافقون",
+  "nameTransliterated": "Al-Munafiqun",
+  "aliases": [
+   "Al-Munaafiqoon",
+   "Al-Munāfiqūn",
+   "Al-Munafiqun",
+   "المنافقون"
+  ],
+  "names": {
+   "en": "The Hypocrites",
+   "fr": "Les hypocrites",
+   "es": "Los Hipócritas"
+  },
+  "versesCount": 11,
+  "firstGlobalAyah": 5189,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 64,
+  "nameArabic": "التغابن",
+  "nameTransliterated": "At-Taghabun",
+  "aliases": [
+   "At-Taghaabun",
+   "At-Taghābun",
+   "At-Taghabun",
+   "التغابن"
+  ],
+  "names": {
+   "en": "The Mutual Disillusion",
+   "fr": "La grande perte",
+   "es": "El Desengaño"
+  },
+  "versesCount": 18,
+  "firstGlobalAyah": 5200,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 65,
+  "nameArabic": "الطلاق",
+  "nameTransliterated": "At-Talaq",
+  "aliases": [
+   "At-Talaaq",
+   "Aţ-Ţalāq",
+   "At-Talaq",
+   "الطلاق"
+  ],
+  "names": {
+   "en": "The Divorce",
+   "fr": "Le divorce",
+   "es": "El Divorcio"
+  },
+  "versesCount": 12,
+  "firstGlobalAyah": 5218,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 66,
+  "nameArabic": "التحريم",
+  "nameTransliterated": "At-Tahrim",
+  "aliases": [
+   "At-Tahrim",
+   "At-Taĥrīm",
+   "التحريم"
+  ],
+  "names": {
+   "en": "The Prohibition",
+   "fr": "L'interdiction",
+   "es": "La Prohibición"
+  },
+  "versesCount": 12,
+  "firstGlobalAyah": 5230,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 67,
+  "nameArabic": "الملك",
+  "nameTransliterated": "Al-Mulk",
+  "aliases": [
+   "Al-Mulk",
+   "الملك"
+  ],
+  "names": {
+   "en": "The Sovereignty",
+   "fr": "La royauté",
+   "es": "La Soberanía"
+  },
+  "versesCount": 30,
+  "firstGlobalAyah": 5242,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 68,
+  "nameArabic": "القلم",
+  "nameTransliterated": "Al-Qalam",
+  "aliases": [
+   "Al-Qalam",
+   "القلم"
+  ],
+  "names": {
+   "en": "The Pen",
+   "fr": "La plume",
+   "es": "El Cálamo"
+  },
+  "versesCount": 52,
+  "firstGlobalAyah": 5272,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 69,
+  "nameArabic": "الحاقة",
+  "nameTransliterated": "Al-Haqqah",
+  "aliases": [
+   "Al-Haaqqa",
+   "Al-Ĥāqqah",
+   "Al-Haqqah",
+   "الحاقة"
+  ],
+  "names": {
+   "en": "The Reality",
+   "fr": "L'inéluctable",
+   "es": "La Verdad Indefectible"
+  },
+  "versesCount": 52,
+  "firstGlobalAyah": 5324,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 70,
+  "nameArabic": "المعارج",
+  "nameTransliterated": "Al-Ma'arij",
+  "aliases": [
+   "Al-Ma'aarij",
+   "Al-Ma`ārij",
+   "Al-Ma'arij",
+   "المعارج"
+  ],
+  "names": {
+   "en": "The Ascending Stairways",
+   "fr": "Les voies d'ascension",
+   "es": "Los Grados de Elevación"
+  },
+  "versesCount": 44,
+  "firstGlobalAyah": 5376,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 71,
+  "nameArabic": "نوح",
+  "nameTransliterated": "Nuh",
+  "aliases": [
+   "Nooh",
+   "Nūĥ",
+   "Nuh",
+   "نوح"
+  ],
+  "names": {
+   "en": "Noah",
+   "fr": "Noé",
+   "es": "Noé"
+  },
+  "versesCount": 28,
+  "firstGlobalAyah": 5420,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 72,
+  "nameArabic": "الجن",
+  "nameTransliterated": "Al-Jinn",
+  "aliases": [
+   "Al-Jinn",
+   "الجن"
+  ],
+  "names": {
+   "en": "The Jinn",
+   "fr": "Les djinns",
+   "es": "Los Genios"
+  },
+  "versesCount": 28,
+  "firstGlobalAyah": 5448,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 73,
+  "nameArabic": "المزمل",
+  "nameTransliterated": "Al-Muzzammil",
+  "aliases": [
+   "Al-Muzzammil",
+   "المزمل"
+  ],
+  "names": {
+   "en": "The Enshrouded One",
+   "fr": "L'enveloppé",
+   "es": "El Envuelto en El Manto"
+  },
+  "versesCount": 20,
+  "firstGlobalAyah": 5476,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 74,
+  "nameArabic": "المدثر",
+  "nameTransliterated": "Al-Muddaththir",
+  "aliases": [
+   "Al-Muddaththir",
+   "المدثر"
+  ],
+  "names": {
+   "en": "The Cloaked One",
+   "fr": "Celui qui se couvre",
+   "es": "El Arropado"
+  },
+  "versesCount": 56,
+  "firstGlobalAyah": 5496,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 75,
+  "nameArabic": "القيامة",
+  "nameTransliterated": "Al-Qiyamah",
+  "aliases": [
+   "Al-Qiyaama",
+   "Al-Qiyāmah",
+   "Al-Qiyamah",
+   "القيامة"
+  ],
+  "names": {
+   "en": "The Resurrection",
+   "fr": "La résurrection",
+   "es": "El Levantamiento"
+  },
+  "versesCount": 40,
+  "firstGlobalAyah": 5552,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 76,
+  "nameArabic": "الانسان",
+  "nameTransliterated": "Al-Insan",
+  "aliases": [
+   "Al-Insaan",
+   "Al-'Insān",
+   "Al-Insan",
+   "الانسان"
+  ],
+  "names": {
+   "en": "The Man",
+   "fr": "L'homme",
+   "es": "El Hombre"
+  },
+  "versesCount": 31,
+  "firstGlobalAyah": 5592,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 77,
+  "nameArabic": "المرسلات",
+  "nameTransliterated": "Al-Mursalat",
+  "aliases": [
+   "Al-Mursalaat",
+   "Al-Mursalāt",
+   "Al-Mursalat",
+   "المرسلات"
+  ],
+  "names": {
+   "en": "The Emissaries",
+   "fr": "Les envoyés",
+   "es": "Los Que Son Enviados"
+  },
+  "versesCount": 50,
+  "firstGlobalAyah": 5623,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 78,
+  "nameArabic": "النبإ",
+  "nameTransliterated": "An-Naba",
+  "aliases": [
+   "An-Naba",
+   "النبإ"
+  ],
+  "names": {
+   "en": "The Tidings",
+   "fr": "La nouvelle",
+   "es": "La Noticia"
+  },
+  "versesCount": 40,
+  "firstGlobalAyah": 5673,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 79,
+  "nameArabic": "النازعات",
+  "nameTransliterated": "An-Nazi'at",
+  "aliases": [
+   "An-Naazi'aat",
+   "An-Nāzi`āt",
+   "An-Nazi'at",
+   "النازعات"
+  ],
+  "names": {
+   "en": "Those who drag forth",
+   "fr": "Ceux qui arrachent",
+   "es": "Los Que Arrancan"
+  },
+  "versesCount": 46,
+  "firstGlobalAyah": 5713,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 80,
+  "nameArabic": "عبس",
+  "nameTransliterated": "'Abasa",
+  "aliases": [
+   "Abasa",
+   "`Abasa",
+   "'Abasa",
+   "عبس"
+  ],
+  "names": {
+   "en": "He Frowned",
+   "fr": "Il s'est renfrogné",
+   "es": "Frunció El Ceño"
+  },
+  "versesCount": 42,
+  "firstGlobalAyah": 5759,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 81,
+  "nameArabic": "التكوير",
+  "nameTransliterated": "At-Takwir",
+  "aliases": [
+   "At-Takwir",
+   "At-Takwīr",
+   "التكوير"
+  ],
+  "names": {
+   "en": "The Overthrowing",
+   "fr": "L'obscurcissement",
+   "es": "El Arrollamiento"
+  },
+  "versesCount": 29,
+  "firstGlobalAyah": 5801,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 82,
+  "nameArabic": "الإنفطار",
+  "nameTransliterated": "Al-Infitar",
+  "aliases": [
+   "Al-Infitaar",
+   "Al-'Infiţār",
+   "Al-Infitar",
+   "الإنفطار"
+  ],
+  "names": {
+   "en": "The Cleaving",
+   "fr": "La rupture",
+   "es": "La Hendidura"
+  },
+  "versesCount": 19,
+  "firstGlobalAyah": 5830,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 83,
+  "nameArabic": "المطففين",
+  "nameTransliterated": "Al-Mutaffifin",
+  "aliases": [
+   "Al-Mutaffifin",
+   "Al-Muţaffifīn",
+   "المطففين"
+  ],
+  "names": {
+   "en": "The Defrauding",
+   "fr": "Les fraudeurs",
+   "es": "Los Defraudadores"
+  },
+  "versesCount": 36,
+  "firstGlobalAyah": 5849,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 84,
+  "nameArabic": "الإنشقاق",
+  "nameTransliterated": "Al-Inshiqaq",
+  "aliases": [
+   "Al-Inshiqaaq",
+   "Al-'Inshiqāq",
+   "Al-Inshiqaq",
+   "الإنشقاق"
+  ],
+  "names": {
+   "en": "The Sundering",
+   "fr": "La déchirure",
+   "es": "El Resquebrajamiento"
+  },
+  "versesCount": 25,
+  "firstGlobalAyah": 5885,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 85,
+  "nameArabic": "البروج",
+  "nameTransliterated": "Al-Buruj",
+  "aliases": [
+   "Al-Burooj",
+   "Al-Burūj",
+   "Al-Buruj",
+   "البروج"
+  ],
+  "names": {
+   "en": "The Mansions of the Stars",
+   "fr": "Les constellations",
+   "es": "Las Constelaciones"
+  },
+  "versesCount": 22,
+  "firstGlobalAyah": 5910,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 86,
+  "nameArabic": "الطارق",
+  "nameTransliterated": "At-Tariq",
+  "aliases": [
+   "At-Taariq",
+   "Aţ-Ţāriq",
+   "At-Tariq",
+   "الطارق"
+  ],
+  "names": {
+   "en": "The Nightcommer",
+   "fr": "L'astre nocturne",
+   "es": "El Que Viene de Noche"
+  },
+  "versesCount": 17,
+  "firstGlobalAyah": 5932,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 87,
+  "nameArabic": "الأعلى",
+  "nameTransliterated": "Al-A'la",
+  "aliases": [
+   "Al-A'laa",
+   "Al-'A`lá",
+   "Al-A'la",
+   "الأعلى"
+  ],
+  "names": {
+   "en": "The Most High",
+   "fr": "Le Très-Haut",
+   "es": "El Altísimo"
+  },
+  "versesCount": 19,
+  "firstGlobalAyah": 5949,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 88,
+  "nameArabic": "الغاشية",
+  "nameTransliterated": "Al-Ghashiyah",
+  "aliases": [
+   "Al-Ghaashiya",
+   "Al-Ghāshiyah",
+   "Al-Ghashiyah",
+   "الغاشية"
+  ],
+  "names": {
+   "en": "The Overwhelming",
+   "fr": "L'enveloppante",
+   "es": "El Envolvente"
+  },
+  "versesCount": 26,
+  "firstGlobalAyah": 5968,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 89,
+  "nameArabic": "الفجر",
+  "nameTransliterated": "Al-Fajr",
+  "aliases": [
+   "Al-Fajr",
+   "الفجر"
+  ],
+  "names": {
+   "en": "The Dawn",
+   "fr": "L'aube",
+   "es": "La Aurora"
+  },
+  "versesCount": 30,
+  "firstGlobalAyah": 5994,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 90,
+  "nameArabic": "البلد",
+  "nameTransliterated": "Al-Balad",
+  "aliases": [
+   "Al-Balad",
+   "البلد"
+  ],
+  "names": {
+   "en": "The City",
+   "fr": "La cité",
+   "es": "El Territorio"
+  },
+  "versesCount": 20,
+  "firstGlobalAyah": 6024,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 91,
+  "nameArabic": "الشمس",
+  "nameTransliterated": "Ash-Shams",
+  "aliases": [
+   "Ash-Shams",
+   "الشمس"
+  ],
+  "names": {
+   "en": "The Sun",
+   "fr": "Le soleil",
+   "es": "El Sol"
+  },
+  "versesCount": 15,
+  "firstGlobalAyah": 6044,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 92,
+  "nameArabic": "الليل",
+  "nameTransliterated": "Al-Layl",
+  "aliases": [
+   "Al-Lail",
+   "Al-Layl",
+   "الليل"
+  ],
+  "names": {
+   "en": "The Night",
+   "fr": "La nuit",
+   "es": "La Noche"
+  },
+  "versesCount": 21,
+  "firstGlobalAyah": 6059,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 93,
+  "nameArabic": "الضحى",
+  "nameTransliterated": "Ad-Duhaa",
+  "aliases": [
+   "Ad-Dhuhaa",
+   "Ađ-Đuĥaá",
+   "Ad-Duhaa",
+   "الضحى"
+  ],
+  "names": {
+   "en": "The Morning Hours",
+   "fr": "Le jour montant",
+   "es": "La Claridad de La Mañana"
+  },
+  "versesCount": 11,
+  "firstGlobalAyah": 6080,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 94,
+  "nameArabic": "الشرح",
+  "nameTransliterated": "Ash-Sharh",
+  "aliases": [
+   "Ash-Sharh",
+   "Ash-Sharĥ",
+   "الشرح"
+  ],
+  "names": {
+   "en": "The Relief",
+   "fr": "L'ouverture",
+   "es": "No Te Hemos Abierto"
+  },
+  "versesCount": 8,
+  "firstGlobalAyah": 6091,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 95,
+  "nameArabic": "التين",
+  "nameTransliterated": "At-Tin",
+  "aliases": [
+   "At-Tin",
+   "At-Tīn",
+   "التين"
+  ],
+  "names": {
+   "en": "The Fig",
+   "fr": "Les figues",
+   "es": "Los Higos"
+  },
+  "versesCount": 8,
+  "firstGlobalAyah": 6099,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 96,
+  "nameArabic": "العلق",
+  "nameTransliterated": "Al-'Alaq",
+  "aliases": [
+   "Al-Alaq",
+   "Al-`Alaq",
+   "Al-'Alaq",
+   "العلق"
+  ],
+  "names": {
+   "en": "The Clot",
+   "fr": "L'adhérence",
+   "es": "El Coágulo"
+  },
+  "versesCount": 19,
+  "firstGlobalAyah": 6107,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 97,
+  "nameArabic": "القدر",
+  "nameTransliterated": "Al-Qadr",
+  "aliases": [
+   "Al-Qadr",
+   "القدر"
+  ],
+  "names": {
+   "en": "The Power",
+   "fr": "La destinée",
+   "es": "El Decreto"
+  },
+  "versesCount": 5,
+  "firstGlobalAyah": 6126,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 98,
+  "nameArabic": "البينة",
+  "nameTransliterated": "Al-Bayyinah",
+  "aliases": [
+   "Al-Bayyina",
+   "Al-Bayyinah",
+   "البينة"
+  ],
+  "names": {
+   "en": "The Clear Proof",
+   "fr": "La preuve",
+   "es": "La Evidencia"
+  },
+  "versesCount": 8,
+  "firstGlobalAyah": 6131,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 99,
+  "nameArabic": "الزلزلة",
+  "nameTransliterated": "Az-Zalzalah",
+  "aliases": [
+   "Az-Zalzala",
+   "Az-Zalzalah",
+   "الزلزلة"
+  ],
+  "names": {
+   "en": "The Earthquake",
+   "fr": "Le séisme",
+   "es": "El Temblor"
+  },
+  "versesCount": 8,
+  "firstGlobalAyah": 6139,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 100,
+  "nameArabic": "العاديات",
+  "nameTransliterated": "Al-'Adiyat",
+  "aliases": [
+   "Al-Aadiyaat",
+   "Al-`Ādiyāt",
+   "Al-'Adiyat",
+   "العاديات"
+  ],
+  "names": {
+   "en": "The Courser",
+   "fr": "Les coursiers",
+   "es": "Los Que Galopan"
+  },
+  "versesCount": 11,
+  "firstGlobalAyah": 6147,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 101,
+  "nameArabic": "القارعة",
+  "nameTransliterated": "Al-Qari'ah",
+  "aliases": [
+   "Al-Qaari'a",
+   "Al-Qāri`ah",
+   "Al-Qari'ah",
+   "القارعة"
+  ],
+  "names": {
+   "en": "The Calamity",
+   "fr": "Le fracas",
+   "es": "La Conmoción"
+  },
+  "versesCount": 11,
+  "firstGlobalAyah": 6158,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 102,
+  "nameArabic": "التكاثر",
+  "nameTransliterated": "At-Takathur",
+  "aliases": [
+   "At-Takaathur",
+   "At-Takāthur",
+   "At-Takathur",
+   "التكاثر"
+  ],
+  "names": {
+   "en": "The Rivalry in world increase",
+   "fr": "La course aux richesses",
+   "es": "La Rivalidad"
+  },
+  "versesCount": 8,
+  "firstGlobalAyah": 6169,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 103,
+  "nameArabic": "العصر",
+  "nameTransliterated": "Al-'Asr",
+  "aliases": [
+   "Al-Asr",
+   "Al-`Aşr",
+   "Al-'Asr",
+   "العصر"
+  ],
+  "names": {
+   "en": "The Declining Day",
+   "fr": "Le temps",
+   "es": "El Tiempo"
+  },
+  "versesCount": 3,
+  "firstGlobalAyah": 6177,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 104,
+  "nameArabic": "الهمزة",
+  "nameTransliterated": "Al-Humazah",
+  "aliases": [
+   "Al-Humaza",
+   "Al-Humazah",
+   "الهمزة"
+  ],
+  "names": {
+   "en": "The Traducer",
+   "fr": "Les calomniateurs",
+   "es": "El Murmurador"
+  },
+  "versesCount": 9,
+  "firstGlobalAyah": 6180,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 105,
+  "nameArabic": "الفيل",
+  "nameTransliterated": "Al-Fil",
+  "aliases": [
+   "Al-Fil",
+   "Al-Fīl",
+   "الفيل"
+  ],
+  "names": {
+   "en": "The Elephant",
+   "fr": "L'éléphant",
+   "es": "El Elefante"
+  },
+  "versesCount": 5,
+  "firstGlobalAyah": 6189,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 106,
+  "nameArabic": "قريش",
+  "nameTransliterated": "Quraysh",
+  "aliases": [
+   "Quraish",
+   "Quraysh",
+   "قريش"
+  ],
+  "names": {
+   "en": "Quraysh",
+   "fr": "Les Quraysh",
+   "es": "Los Quraysh"
+  },
+  "versesCount": 4,
+  "firstGlobalAyah": 6194,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 107,
+  "nameArabic": "الماعون",
+  "nameTransliterated": "Al-Ma'un",
+  "aliases": [
+   "Al-Maa'un",
+   "Al-Mā`ūn",
+   "Al-Ma'un",
+   "الماعون"
+  ],
+  "names": {
+   "en": "The Small kindnesses",
+   "fr": "L'entraide",
+   "es": "La Ayuda Imprescindible"
+  },
+  "versesCount": 7,
+  "firstGlobalAyah": 6198,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 108,
+  "nameArabic": "الكوثر",
+  "nameTransliterated": "Al-Kawthar",
+  "aliases": [
+   "Al-Kawthar",
+   "الكوثر"
+  ],
+  "names": {
+   "en": "The Abundance",
+   "fr": "L'abondance",
+   "es": "La Abundancia"
+  },
+  "versesCount": 3,
+  "firstGlobalAyah": 6205,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 109,
+  "nameArabic": "الكافرون",
+  "nameTransliterated": "Al-Kafirun",
+  "aliases": [
+   "Al-Kaafiroon",
+   "Al-Kāfirūn",
+   "Al-Kafirun",
+   "الكافرون"
+  ],
+  "names": {
+   "en": "The Disbelievers",
+   "fr": "Les mécréants",
+   "es": "Los Incrédulos"
+  },
+  "versesCount": 6,
+  "firstGlobalAyah": 6208,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 110,
+  "nameArabic": "النصر",
+  "nameTransliterated": "An-Nasr",
+  "aliases": [
+   "An-Nasr",
+   "An-Naşr",
+   "النصر"
+  ],
+  "names": {
+   "en": "The Divine Support",
+   "fr": "Le secours",
+   "es": "La Victoria"
+  },
+  "versesCount": 3,
+  "firstGlobalAyah": 6214,
+  "revelationPlace": "madinah"
+ },
+ {
+  "number": 111,
+  "nameArabic": "المسد",
+  "nameTransliterated": "Al-Masad",
+  "aliases": [
+   "Al-Masad",
+   "المسد"
+  ],
+  "names": {
+   "en": "The Palm Fiber",
+   "fr": "Les fibres",
+   "es": "La Fibra"
+  },
+  "versesCount": 5,
+  "firstGlobalAyah": 6217,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 112,
+  "nameArabic": "الإخلاص",
+  "nameTransliterated": "Al-Ikhlas",
+  "aliases": [
+   "Al-Ikhlaas",
+   "Al-'Ikhlāş",
+   "Al-Ikhlas",
+   "الإخلاص"
+  ],
+  "names": {
+   "en": "The Sincerity",
+   "fr": "La sincérité",
+   "es": "La Adoración Pura"
+  },
+  "versesCount": 4,
+  "firstGlobalAyah": 6222,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 113,
+  "nameArabic": "الفلق",
+  "nameTransliterated": "Al-Falaq",
+  "aliases": [
+   "Al-Falaq",
+   "الفلق"
+  ],
+  "names": {
+   "en": "The Daybreak",
+   "fr": "L'aube naissante",
+   "es": "El Rayar del Alba"
+  },
+  "versesCount": 5,
+  "firstGlobalAyah": 6226,
+  "revelationPlace": "makkah"
+ },
+ {
+  "number": 114,
+  "nameArabic": "الناس",
+  "nameTransliterated": "An-Nas",
+  "aliases": [
+   "An-Naas",
+   "An-Nās",
+   "An-Nas",
+   "الناس"
+  ],
+  "names": {
+   "en": "Mankind",
+   "fr": "Les humains",
+   "es": "Los Hombres"
+  },
+  "versesCount": 6,
+  "firstGlobalAyah": 6231,
+  "revelationPlace": "makkah"
+ }
+]

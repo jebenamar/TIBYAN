@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-11-03T15:45:52.585Z",
+  "surahCount": 114,
+  "ayahCount": 6236,
+  "coverage": {
+    "muyassar": {
+      "entries": 5049,
+      "versesCovered": 6236,
+      "coveragePct": 100,
+      "rangedEntries": 605,
+      "licenseStatus": "NON_COMMERCIAL"
+    },
+    "saadi": {
+      "entries": 5905,
+      "versesCovered": 6186,
+      "coveragePct": 99.2,
+      "rangedEntries": 208,
+      "licenseStatus": "UNVERIFIED"
+    },
+    "ibn-kathir": {
+      "entries": 6000,
+      "versesCovered": 6205,
+      "coveragePct": 99.5,
+      "rangedEntries": 143,
+      "licenseStatus": "UNVERIFIED"
+    },
+    "tabari": {
+      "entries": 6187,
+      "versesCovered": 6196,
+      "coveragePct": 99.36,
+      "rangedEntries": 7,
+      "licenseStatus": "UNVERIFIED"
+    },
+    "qurtubi": {
+      "entries": 6209,
+      "versesCovered": 6235,
+      "coveragePct": 99.98,
+      "rangedEntries": 11,
+      "licenseStatus": "UNVERIFIED"
+    },
+    "baghawi": {
+      "entries": 6235,
+      "versesCovered": 6236,
+      "coveragePct": 100,
+      "rangedEntries": 1,
+      "licenseStatus": "UNVERIFIED"
+    },
+    "jalalayn": {
+      "entries": 6236,
+      "versesCovered": 6236,
+      "coveragePct": 100,
+      "rangedEntries": 0,
+      "licenseStatus": "NON_COMMERCIAL"
+    }
+  },
+  "problems": []
+}

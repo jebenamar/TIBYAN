@@ -1,0 +1,45 @@
+{
+  "source": "baghawi",
+  "adapter": "qurancom:94",
+  "status": "success",
+  "stats": {
+    "surahs": 114,
+    "entries": 6235,
+    "written": 6235,
+    "unchangedSurahs": 0,
+    "failedSurahs": 0,
+    "errors": 0,
+    "warnings": 4,
+    "seconds": 7
+  },
+  "issues": [
+    {
+      "level": "warning",
+      "surah": 38,
+      "ayah": 37,
+      "code": "suspect-start",
+      "message": "Explanation starts with punctuation (possible truncation at source)"
+    },
+    {
+      "level": "warning",
+      "surah": 37,
+      "ayah": 65,
+      "code": "suspect-start",
+      "message": "Explanation starts with punctuation (possible truncation at source)"
+    },
+    {
+      "level": "warning",
+      "surah": 70,
+      "ayah": 43,
+      "code": "suspect-start",
+      "message": "Explanation starts with punctuation (possible truncation at source)"
+    },
+    {
+      "level": "warning",
+      "surah": 69,
+      "ayah": 47,
+      "code": "suspect-start",
+      "message": "Explanation starts with punctuation (possible truncation at source)"
+    }
+  ]
+}

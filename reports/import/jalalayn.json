@@ -1,0 +1,16 @@
+{
+  "source": "jalalayn",
+  "adapter": "tanzil:ar.jalalayn",
+  "status": "success",
+  "stats": {
+    "surahs": 114,
+    "entries": 6236,
+    "written": 6236,
+    "unchangedSurahs": 0,
+    "failedSurahs": 0,
+    "errors": 0,
+    "warnings": 0,
+    "seconds": 1
+  },
+  "issues": []
+}

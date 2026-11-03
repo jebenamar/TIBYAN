@@ -1,0 +1,280 @@
+{
+  "source": "ibn-kathir",
+  "adapter": "qurancom:14",
+  "status": "success",
+  "stats": {
+    "surahs": 114,
+    "entries": 6000,
+    "written": 6000,
+    "unchangedSurahs": 0,
+    "failedSurahs": 0,
+    "errors": 0,
+    "warnings": 43,
+    "seconds": 7
+  },
+  "issues": [
+    {
+      "level": "warning",
+      "surah": 5,
+      "code": "provider-count",
+      "message": "Provider returned 119 records for 120 verses"
+    },
+    {
+      "level": "warning",
+      "surah": 5,
+      "code": "missing-verses",
+      "message": "No explanation for verses: 97"
+    },
+    {
+      "level": "warning",
+      "surah": 6,
+      "code": "provider-count",
+      "message": "Provider returned 164 records for 165 verses"
+    },
+    {
+      "level": "warning",
+      "surah": 6,
+      "code": "missing-verses",
+      "message": "No explanation for verses: 56"
+    },
+    {
+      "level": "warning",
+      "surah": 7,
+      "ayah": 15,
+      "code": "suspect-start",
+      "message": "Explanation starts with punctuation (possible truncation at source)"
+    },
+    {
+      "level": "warning",
+      "surah": 9,
+      "ayah": 119,
+      "code": "suspect-start",
+      "message": "Explanation starts with punctuation (possible truncation at source)"
+    },
+    {
+      "level": "warning",
+      "surah": 10,
+      "ayah": 80,
+      "code": "suspect-start",
+      "message": "Explanation starts with punctuation (possible truncation at source)"
+    },
+    {
+      "level": "warning",
+      "surah": 11,
+      "code": "provider-count",
+      "message": "Provider returned 122 records for 123 verses"
+    },
+    {
+      "level": "warning",
+      "surah": 11,
+      "code": "missing-verses",
+      "message": "No explanation for verses: 47"
+    },
+    {
+      "level": "warning",
+      "surah": 20,
+      "code": "provider-count",
+      "message": "Provider returned 133 records for 135 verses"
+    },
+    {
+      "level": "warning",
+      "surah": 20,
+      "code": "missing-verses",
+      "message": "No explanation for verses: 68, 79"
+    },
+    {
+      "level": "warning",
+      "surah": 23,
+      "code": "provider-count",
+      "message": "Provider returned 117 records for 118 verses"
+    },
+    {
+      "level": "warning",
+      "surah": 23,
+      "code": "missing-verses",
+      "message": "No explanation for verses: 37"
+    },
+    {
+      "level": "warning",
+      "surah": 23,
+      "ayah": 85,
+      "code": "suspect-start",
+      "message": "Explanation starts with punctuation (possible truncation at source)"
+    },
+    {
+      "level": "warning",
+      "surah": 26,
+      "code": "provider-count",
+      "message": "Provider returned 219 records for 227 verses"
+    },
+    {
+      "level": "warning",
+      "surah": 26,
+      "code": "missing-verses",
+      "message": "No explanation for verses: 104, 159, 164, 174, 175, 178, 179, 180"
+    },
+    {
+      "level": "warning",
+      "surah": 30,
+      "code": "provider-count",
+      "message": "Provider returned 59 records for 60 verses"
+    },
+    {
+      "level": "warning",
+      "surah": 30,
+      "code": "missing-verses",
+      "message": "No explanation for verses: 16"
+    },
+    {
+      "level": "warning",
+      "surah": 32,
+      "ayah": 11,
+      "code": "suspect-start",
+      "message": "Explanation starts with punctuation (possible truncation at source)"
+    },
+    {
+      "level": "warning",
+      "surah": 33,
+      "code": "provider-count",
+      "message": "Provider returned 72 records for 73 verses"
+    },
+    {
+      "level": "warning",
+      "surah": 33,
+      "code": "missing-verses",
+      "message": "No explanation for verses: 47"
+    },
+    {
+      "level": "warning",
+      "surah": 38,
+      "code": "provider-count",
+      "message": "Provider returned 87 records for 88 verses"
+    },
+    {
+      "level": "warning",
+      "surah": 38,
+      "code": "missing-verses",
+      "message": "No explanation for verses: 70"
+    },
+    {
+      "level": "warning",
+      "surah": 37,
+      "code": "provider-count",
+      "message": "Provider returned 181 records for 182 verses"
+    },
+    {
+      "level": "warning",
+      "surah": 37,
+      "code": "missing-verses",
+      "message": "No explanation for verses: 137"
+    },
+    {
+      "level": "warning",
+      "surah": 42,
+      "code": "provider-count",
+      "message": "Provider returned 52 records for 53 verses"
+    },
+    {
+      "level": "warning",
+      "surah": 42,
+      "code": "missing-verses",
+      "message": "No explanation for verses: 31"
+    },
+    {
+      "level": "warning",
+      "surah": 43,
+      "code": "provider-count",
+      "message": "Provider returned 88 records for 89 verses"
+    },
+    {
+      "level": "warning",
+      "surah": 43,
+      "code": "missing-verses",
+      "message": "No explanation for verses: 27"
+    },
+    {
+      "level": "warning",
+      "surah": 47,
+      "code": "provider-count",
+      "message": "Provider returned 37 records for 38 verses"
+    },
+    {
+      "level": "warning",
+      "surah": 47,
+      "code": "missing-verses",
+      "message": "No explanation for verses: 28"
+    },
+    {
+      "level": "warning",
+      "surah": 53,
+      "code": "provider-count",
+      "message": "Provider returned 61 records for 62 verses"
+    },
+    {
+      "level": "warning",
+      "surah": 53,
+      "code": "missing-verses",
+      "message": "No explanation for verses: 15"
+    },
+    {
+      "level": "warning",
+      "surah": 54,
+      "code": "provider-count",
+      "message": "Provider returned 54 records for 55 verses"
+    },
+    {
+      "level": "warning",
+      "surah": 54,
+      "code": "missing-verses",
+      "message": "No explanation for verses: 35"
+    },
+    {
+      "level": "warning",
+      "surah": 74,
+      "code": "provider-count",
+      "message": "Provider returned 53 records for 56 verses"
+    },
+    {
+      "level": "warning",
+      "surah": 74,
+      "code": "missing-verses",
+      "message": "No explanation for verses: 15, 32, 46"
+    },
+    {
+      "level": "warning",
+      "surah": 75,
+      "code": "provider-count",
+      "message": "Provider returned 39 records for 40 verses"
+    },
+    {
+      "level": "warning",
+      "surah": 75,
+      "code": "missing-verses",
+      "message": "No explanation for verses: 28"
+    },
+    {
+      "level": "warning",
+      "surah": 77,
+      "code": "provider-count",
+      "message": "Provider returned 47 records for 50 verses"
+    },
+    {
+      "level": "warning",
+      "surah": 77,
+      "code": "missing-verses",
+      "message": "No explanation for verses: 14, 18, 23"
+    },
+    {
+      "level": "warning",
+      "surah": 86,
+      "code": "provider-count",
+      "message": "Provider returned 16 records for 17 verses"
+    },
+    {
+      "level": "warning",
+      "surah": 86,
+      "code": "missing-verses",
+      "message": "No explanation for verses: 16"
+    }
+  ]
+}

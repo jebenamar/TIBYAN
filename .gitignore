@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+!.env.example
+
+# local postgres cluster & import cache
+/.pgdata
+/.cache
+/src/generated
+/test-results
+/playwright-report
+
+# local logs
+*.log
+.err

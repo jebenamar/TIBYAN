@@ -1,26 +1,334 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* ═══════════════════════════════════════════════════════════════════════
+   TAFSIR — Design tokens · "Islamic Futurism"
+   Emerald architecture, brass hairlines, ivory stone, night glass.
+   All colours are tokens; components never hard-code hex values.
+   ═══════════════════════════════════════════════════════════════════════ */
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+:root {
+  color-scheme: light;
+  --bg: #f8f5ed;            /* ivory stone */
+  --bg-deep: #efe9da;
+  --surface: #fffdf8;       /* warm white reading surface */
+  --surface-2: #f3eee2;
+  --surface-glass: rgb(255 253 248 / 0.72);
+  --ink: #0d2925;           /* primary text */
+  --ink-soft: #2c4741;
+  --ink-muted: #4f625d;     /* 6.1:1 on --bg */
+  --primary: #063d35;       /* deep emerald */
+  --primary-ink: #fffdf8;
+  --accent: #087f6d;        /* jade — actions */
+  --accent-soft: rgb(8 127 109 / 0.1);
+  --gold: #c9a76a;          /* brass — decoration only */
+  --gold-ink: #85652a;      /* brass for text (4.9:1) */
+  --gold-soft: rgb(201 167 106 / 0.16);
+  --line: rgb(6 61 53 / 0.11);
+  --line-strong: rgb(6 61 53 / 0.2);
+  --line-gold: rgb(201 167 106 / 0.45);
+  --danger: #a63d2f;
+  --ring: #087f6d;
+  --shadow-1: 0 1px 2px rgb(6 61 53 / 0.06), 0 4px 16px -8px rgb(6 61 53 / 0.12);
+  --shadow-2: 0 2px 6px rgb(6 61 53 / 0.06), 0 24px 48px -24px rgb(6 61 53 / 0.28);
+  --glow: radial-gradient(60% 60% at 50% 0%, rgb(201 167 106 / 0.18), transparent 70%);
+  --pattern-stroke: rgb(6 61 53 / 0.07);
+
+  /* Reading preferences (overridden from the prefs cookie) */
+  --reader-scale: 1;
+  --reader-leading: 2.1;
+  --reader-width: 46rem;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #071b19;
+    --bg-deep: #041210;
+    --surface: #0b2421;
+    --surface-2: #102d29;
+    --surface-glass: rgb(11 36 33 / 0.7);
+    --ink: #efe8d8;
+    --ink-soft: #d3cbb8;
+    --ink-muted: #a3b2ac;
+    --primary: #0c5a4e;
+    --primary-ink: #fffdf8;
+    --accent: #43c6ab;
+    --accent-soft: rgb(67 198 171 / 0.12);
+    --gold: #d6b67a;
+    --gold-ink: #dcbf88;
+    --gold-soft: rgb(214 182 122 / 0.12);
+    --line: rgb(214 182 122 / 0.1);
+    --line-strong: rgb(214 182 122 / 0.2);
+    --line-gold: rgb(214 182 122 / 0.38);
+    --danger: #e98a7a;
+    --ring: #43c6ab;
+    --shadow-1: 0 1px 2px rgb(0 0 0 / 0.3), 0 8px 24px -12px rgb(0 0 0 / 0.5);
+    --shadow-2: 0 2px 8px rgb(0 0 0 / 0.3), 0 32px 64px -24px rgb(0 0 0 / 0.7);
+    --glow: radial-gradient(60% 60% at 50% 0%, rgb(67 198 171 / 0.14), transparent 70%);
+    --pattern-stroke: rgb(214 182 122 / 0.07);
   }
 }
 
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #071b19;
+  --bg-deep: #041210;
+  --surface: #0b2421;
+  --surface-2: #102d29;
+  --surface-glass: rgb(11 36 33 / 0.7);
+  --ink: #efe8d8;
+  --ink-soft: #d3cbb8;
+  --ink-muted: #a3b2ac;
+  --primary: #0c5a4e;
+  --primary-ink: #fffdf8;
+  --accent: #43c6ab;
+  --accent-soft: rgb(67 198 171 / 0.12);
+  --gold: #d6b67a;
+  --gold-ink: #dcbf88;
+  --gold-soft: rgb(214 182 122 / 0.12);
+  --line: rgb(214 182 122 / 0.1);
+  --line-strong: rgb(214 182 122 / 0.2);
+  --line-gold: rgb(214 182 122 / 0.38);
+  --danger: #e98a7a;
+  --ring: #43c6ab;
+  --shadow-1: 0 1px 2px rgb(0 0 0 / 0.3), 0 8px 24px -12px rgb(0 0 0 / 0.5);
+  --shadow-2: 0 2px 8px rgb(0 0 0 / 0.3), 0 32px 64px -24px rgb(0 0 0 / 0.7);
+  --glow: radial-gradient(60% 60% at 50% 0%, rgb(67 198 171 / 0.14), transparent 70%);
+  --pattern-stroke: rgb(214 182 122 / 0.07);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-deep: var(--bg-deep);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-glass: var(--surface-glass);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-muted: var(--ink-muted);
+  --color-primary: var(--primary);
+  --color-primary-ink: var(--primary-ink);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-gold: var(--gold);
+  --color-gold-ink: var(--gold-ink);
+  --color-gold-soft: var(--gold-soft);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-line-gold: var(--line-gold);
+  --color-danger: var(--danger);
+  --color-ring: var(--ring);
+
+  --font-sans: var(--font-geist), var(--font-naskh), system-ui, sans-serif;
+  --font-arabic: var(--font-naskh), var(--font-amiri), serif;
+  --font-display: var(--font-amiri), var(--font-naskh), serif;
+  --font-quran: var(--font-amiri-quran), var(--font-amiri), serif;
+
+  --shadow-soft: var(--shadow-1);
+  --shadow-lift: var(--shadow-2);
+  --radius-xl2: 1.25rem;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* ─────────────── Base ─────────────── */
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  scroll-padding-top: 6rem;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html[lang="ar"] body {
+  font-family: var(--font-naskh), var(--font-geist), system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--gold-soft);
+  color: var(--ink);
+}
+
+@layer base {
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+}
+
+/* ─────────────── Quran & Tafsir typography ─────────────── */
+
+.quran-text {
+  font-family: var(--font-quran);
+  font-size: calc(clamp(1.75rem, 1.2rem + 2.2vw, 2.6rem) * var(--reader-scale));
+  line-height: 2.25;
+  color: var(--ink);
+  word-spacing: 0.08em;
+  font-feature-settings: "calt", "liga", "mark", "mkmk";
+}
+
+.ayah-marker {
+  font-family: var(--font-quran);
+  color: var(--gold-ink);
+  font-size: 0.85em;
+  white-space: nowrap;
+}
+
+.tafsir-prose {
+  font-family: var(--font-arabic);
+  font-size: calc(1.2rem * var(--reader-scale));
+  line-height: var(--reader-leading);
+  color: var(--ink-soft);
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: none;
+}
+.tafsir-prose p + p {
+  margin-top: 0.9em;
+}
+.tafsir-prose q[data-quran] {
+  quotes: "﴿" "﴾";
+  font-family: var(--font-quran);
+  color: var(--accent);
+  font-size: 1.06em;
+}
+.tafsir-prose q[data-quran]::before,
+.tafsir-prose q[data-quran]::after {
+  color: var(--gold-ink);
+  padding-inline: 0.15em;
+}
+.tafsir-prose [data-connector] {
+  color: var(--ink-muted);
+}
+.tafsir-prose [data-hadith] {
+  color: var(--gold-ink);
+}
+.tafsir-prose h3,
+.tafsir-prose h4 {
+  font-family: var(--font-display);
+  color: var(--primary);
+  font-size: 1.15em;
+  margin-block: 1.2em 0.4em;
+}
+:root[data-theme="dark"] .tafsir-prose h3,
+:root[data-theme="dark"] .tafsir-prose h4 {
+  color: var(--gold-ink);
+}
+
+mark,
+.hl {
+  background: linear-gradient(transparent 55%, var(--gold-soft) 55%);
+  color: inherit;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px var(--line-gold) inset;
+  padding-inline: 1px;
+}
+
+/* ─────────────── Materials ─────────────── */
+
+.glass {
+  background: var(--surface-glass);
+  backdrop-filter: saturate(1.4) blur(18px);
+  -webkit-backdrop-filter: saturate(1.4) blur(18px);
+}
+
+/* Brass hairline: a 1px gradient border that catches light at the top edge */
+.hairline {
+  position: relative;
+  isolation: isolate;
+}
+.hairline::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(180deg, var(--line-gold), var(--line) 40%, var(--line));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Eight-point khatam lattice, drawn with stroke tokens so it themes itself */
+.pattern-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-color: var(--pattern-stroke);
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 96 96'%3E%3Cg fill='none' stroke='black' stroke-width='1'%3E%3Cpath d='M48 14 58 38 82 48 58 58 48 82 38 58 14 48 38 38Z'/%3E%3Cpath d='M24 24h48v48H24z' transform='rotate(45 48 48)'/%3E%3Cpath d='M24 24h48v48H24z'/%3E%3Cpath d='M0 0 24 24M96 0 72 24M0 96l24-24M96 96 72 72'/%3E%3C/g%3E%3C/svg%3E") 0 0 / 96px 96px;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 96 96'%3E%3Cg fill='none' stroke='black' stroke-width='1'%3E%3Cpath d='M48 14 58 38 82 48 58 58 48 82 38 58 14 48 38 38Z'/%3E%3Cpath d='M24 24h48v48H24z' transform='rotate(45 48 48)'/%3E%3Cpath d='M24 24h48v48H24z'/%3E%3Cpath d='M0 0 24 24M96 0 72 24M0 96l24-24M96 96 72 72'/%3E%3C/g%3E%3C/svg%3E") 0 0 / 96px 96px;
+}
+
+.fade-edges {
+  -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, #000 30%, transparent 75%);
+  mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, #000 30%, transparent 75%);
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--line-strong) transparent;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Skeleton shimmer */
+.skeleton {
+  background: linear-gradient(90deg, var(--surface-2) 0%, var(--bg-deep) 50%, var(--surface-2) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.6s ease-in-out infinite;
+  border-radius: 0.5rem;
+}
+@keyframes shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}
+
+@keyframes slow-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-slow-spin {
+  animation: slow-spin 240s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+}
+@keyframes pop-in {
+  from { opacity: 0; transform: translateY(6px) scale(0.98); }
 }

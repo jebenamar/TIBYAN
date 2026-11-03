@@ -1,0 +1,123 @@
+// Tafsir — تفسير القرآن الكريم
+// PostgreSQL schema. Full-text search columns (tsvector) and CHECK constraints
+// are added in hand-written SQL inside the migration (see prisma/migrations).
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+/// The 114 surahs. `id` equals the surah number (1–114).
+model Surah {
+  id                 Int     @id
+  number             Int     @unique
+  nameArabic         String
+  nameTransliterated String
+  /// UI-language names, e.g. { "en": "The Cow", "fr": "La vache", "es": "La vaca" }
+  nameTranslated     Json
+  versesCount        Int
+  revelationPlace    String // "makkah" | "madinah"
+  /// Normalised Arabic + latin names, used for fuzzy matching.
+  searchText         String
+
+  ayahs         Ayah[]
+  tafsirEntries TafsirEntry[]
+}
+
+model Ayah {
+  id            Int    @id @default(autoincrement())
+  surahId       Int
+  numberInSurah Int
+  /// Global index 1–6236, in mushaf order.
+  globalNumber  Int    @unique
+  /// Tanzil Uthmani text, verbatim (CC BY 3.0 — must not be modified).
+  textArabic    String
+  /// Tanzil "simple-clean" text, verbatim. Used for search display / copy.
+  textSimple    String
+  /// Normalised form of textSimple (derived index, never displayed).
+  searchText    String
+  tsv           Unsupported("tsvector")?
+
+  surah Surah @relation(fields: [surahId], references: [id], onDelete: Cascade)
+
+  @@unique([surahId, numberInSurah])
+}
+
+enum LicenseStatus {
+  /// Licence explicitly allows redistribution (e.g. CC BY).
+  OPEN
+  /// Publisher allows use for non-commercial purposes only.
+  NON_COMMERCIAL
+  /// Publicly accessible but redistribution terms not stated — personal study only until cleared.
+  UNVERIFIED
+}
+
+model TafsirSource {
+  id            Int           @id @default(autoincrement())
+  slug          String        @unique
+  titleArabic   String
+  titleLatin    String
+  authorArabic  String
+  authorLatin   String
+  description   String?
+  edition       String?
+  publisher     String?
+  /// Where the digital text was obtained (provider page / API).
+  sourceUrl     String
+  sourceName    String
+  license       String
+  licenseStatus LicenseStatus
+  licenseNotes  String?
+  version       String
+  sortOrder     Int           @default(100)
+  importedAt    DateTime?
+  entryCount    Int           @default(0)
+
+  entries    TafsirEntry[]
+  importRuns ImportRun[]
+}
+
+/// One explanation, possibly covering a range of verses (ayahStart..ayahEnd).
+model TafsirEntry {
+  id             Int     @id @default(autoincrement())
+  tafsirSourceId Int
+  surahId        Int
+  ayahStart      Int
+  ayahEnd        Int
+  /// Sanitised HTML (allow-listed tags only) — safe to render.
+  contentHtml    String
+  /// Plain-text version (for copy & snippets).
+  contentArabic  String
+  /// Normalised text for search (derived, never displayed).
+  searchText     String
+  tsv            Unsupported("tsvector")?
+  /// Provider reference (e.g. "quran.com:tafsir/91/2:255" or "tanzil:ar.muyassar").
+  reference      String?
+  importVersion  String
+  /// sha256 of contentArabic — integrity check & idempotent re-imports.
+  checksum       String
+
+  source TafsirSource @relation(fields: [tafsirSourceId], references: [id], onDelete: Cascade)
+  surah  Surah        @relation(fields: [surahId], references: [id], onDelete: Cascade)
+
+  @@unique([tafsirSourceId, surahId, ayahStart])
+  @@index([surahId, ayahStart, ayahEnd])
+}
+
+model ImportRun {
+  id             Int       @id @default(autoincrement())
+  tafsirSourceId Int?
+  kind           String // "quran" | "tafsir"
+  adapter        String
+  startedAt      DateTime  @default(now())
+  finishedAt     DateTime?
+  status         String // "running" | "success" | "partial" | "failed"
+  stats          Json?
+  issues         Json?
+
+  source TafsirSource? @relation(fields: [tafsirSourceId], references: [id], onDelete: SetNull)
+}

@@ -1,0 +1,44 @@
+{
+  "source": "qurtubi",
+  "adapter": "qurancom:90",
+  "status": "success",
+  "stats": {
+    "surahs": 114,
+    "entries": 6209,
+    "written": 6209,
+    "unchangedSurahs": 0,
+    "failedSurahs": 0,
+    "errors": 0,
+    "warnings": 4,
+    "seconds": 9
+  },
+  "issues": [
+    {
+      "level": "warning",
+      "surah": 2,
+      "ayah": 184,
+      "code": "suspect-start",
+      "message": "Explanation starts with punctuation (possible truncation at source)"
+    },
+    {
+      "level": "warning",
+      "surah": 28,
+      "ayah": 34,
+      "code": "empty",
+      "message": "Empty explanation skipped (reported as missing)"
+    },
+    {
+      "level": "warning",
+      "surah": 28,
+      "code": "missing-verses",
+      "message": "No explanation for verses: 34"
+    },
+    {
+      "level": "warning",
+      "surah": 38,
+      "ayah": 31,
+      "code": "suspect-start",
+      "message": "Explanation starts with punctuation (possible truncation at source)"
+    }
+  ]
+}

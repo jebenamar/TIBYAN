@@ -1,0 +1,16 @@
+{
+  "source": "muyassar",
+  "adapter": "tanzil:ar.muyassar",
+  "status": "success",
+  "stats": {
+    "surahs": 114,
+    "entries": 5049,
+    "written": 5049,
+    "unchangedSurahs": 0,
+    "failedSurahs": 0,
+    "errors": 0,
+    "warnings": 0,
+    "seconds": 1
+  },
+  "issues": []
+}
