@@ -10,7 +10,7 @@
     "failedSurahs": 0,
     "errors": 0,
     "warnings": 43,
-    "seconds": 7
+    "seconds": 12
   },
   "issues": [
     {
@@ -146,18 +146,6 @@
     },
     {
       "level": "warning",
-      "surah": 38,
-      "code": "provider-count",
-      "message": "Provider returned 87 records for 88 verses"
-    },
-    {
-      "level": "warning",
-      "surah": 38,
-      "code": "missing-verses",
-      "message": "No explanation for verses: 70"
-    },
-    {
-      "level": "warning",
       "surah": 37,
       "code": "provider-count",
       "message": "Provider returned 181 records for 182 verses"
@@ -167,6 +155,18 @@
       "surah": 37,
       "code": "missing-verses",
       "message": "No explanation for verses: 137"
+    },
+    {
+      "level": "warning",
+      "surah": 38,
+      "code": "provider-count",
+      "message": "Provider returned 87 records for 88 verses"
+    },
+    {
+      "level": "warning",
+      "surah": 38,
+      "code": "missing-verses",
+      "message": "No explanation for verses: 70"
     },
     {
       "level": "warning",

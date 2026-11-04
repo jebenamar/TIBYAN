@@ -10,13 +10,27 @@
     "failedSurahs": 0,
     "errors": 0,
     "warnings": 95,
-    "seconds": 18
+    "seconds": 9
   },
   "issues": [
     {
       "level": "warning",
       "surah": 2,
       "ayah": 138,
+      "code": "suspect-start",
+      "message": "Explanation starts with punctuation (possible truncation at source)"
+    },
+    {
+      "level": "warning",
+      "surah": 3,
+      "ayah": 44,
+      "code": "suspect-start",
+      "message": "Explanation starts with punctuation (possible truncation at source)"
+    },
+    {
+      "level": "warning",
+      "surah": 3,
+      "ayah": 168,
       "code": "suspect-start",
       "message": "Explanation starts with punctuation (possible truncation at source)"
     },
@@ -57,20 +71,6 @@
       "level": "warning",
       "surah": 7,
       "ayah": 189,
-      "code": "suspect-start",
-      "message": "Explanation starts with punctuation (possible truncation at source)"
-    },
-    {
-      "level": "warning",
-      "surah": 3,
-      "ayah": 44,
-      "code": "suspect-start",
-      "message": "Explanation starts with punctuation (possible truncation at source)"
-    },
-    {
-      "level": "warning",
-      "surah": 3,
-      "ayah": 168,
       "code": "suspect-start",
       "message": "Explanation starts with punctuation (possible truncation at source)"
     },
@@ -123,6 +123,39 @@
     },
     {
       "level": "warning",
+      "surah": 21,
+      "ayah": 110,
+      "code": "empty",
+      "message": "Empty explanation skipped (reported as missing)"
+    },
+    {
+      "level": "warning",
+      "surah": 21,
+      "code": "missing-verses",
+      "message": "No explanation for verses: 110"
+    },
+    {
+      "level": "warning",
+      "surah": 21,
+      "ayah": 88,
+      "code": "suspect-start",
+      "message": "Explanation starts with punctuation (possible truncation at source)"
+    },
+    {
+      "level": "warning",
+      "surah": 22,
+      "ayah": 18,
+      "code": "empty",
+      "message": "Empty explanation skipped (reported as missing)"
+    },
+    {
+      "level": "warning",
+      "surah": 22,
+      "code": "missing-verses",
+      "message": "No explanation for verses: 18"
+    },
+    {
+      "level": "warning",
       "surah": 23,
       "ayah": 40,
       "code": "suspect-start",
@@ -153,39 +186,6 @@
       "level": "warning",
       "surah": 23,
       "ayah": 95,
-      "code": "suspect-start",
-      "message": "Explanation starts with punctuation (possible truncation at source)"
-    },
-    {
-      "level": "warning",
-      "surah": 22,
-      "ayah": 18,
-      "code": "empty",
-      "message": "Empty explanation skipped (reported as missing)"
-    },
-    {
-      "level": "warning",
-      "surah": 22,
-      "code": "missing-verses",
-      "message": "No explanation for verses: 18"
-    },
-    {
-      "level": "warning",
-      "surah": 21,
-      "ayah": 110,
-      "code": "empty",
-      "message": "Empty explanation skipped (reported as missing)"
-    },
-    {
-      "level": "warning",
-      "surah": 21,
-      "code": "missing-verses",
-      "message": "No explanation for verses: 110"
-    },
-    {
-      "level": "warning",
-      "surah": 21,
-      "ayah": 88,
       "code": "suspect-start",
       "message": "Explanation starts with punctuation (possible truncation at source)"
     },
@@ -439,6 +439,19 @@
     },
     {
       "level": "warning",
+      "surah": 53,
+      "ayah": 12,
+      "code": "empty",
+      "message": "Empty explanation skipped (reported as missing)"
+    },
+    {
+      "level": "warning",
+      "surah": 53,
+      "code": "missing-verses",
+      "message": "No explanation for verses: 12"
+    },
+    {
+      "level": "warning",
       "surah": 54,
       "ayah": 35,
       "code": "empty",
@@ -476,19 +489,6 @@
       "surah": 55,
       "code": "missing-verses",
       "message": "No explanation for verses: 22"
-    },
-    {
-      "level": "warning",
-      "surah": 53,
-      "ayah": 12,
-      "code": "empty",
-      "message": "Empty explanation skipped (reported as missing)"
-    },
-    {
-      "level": "warning",
-      "surah": 53,
-      "code": "missing-verses",
-      "message": "No explanation for verses: 12"
     },
     {
       "level": "warning",
@@ -544,19 +544,6 @@
     },
     {
       "level": "warning",
-      "surah": 75,
-      "ayah": 6,
-      "code": "empty",
-      "message": "Empty explanation skipped (reported as missing)"
-    },
-    {
-      "level": "warning",
-      "surah": 75,
-      "code": "missing-verses",
-      "message": "No explanation for verses: 6"
-    },
-    {
-      "level": "warning",
       "surah": 74,
       "ayah": 17,
       "code": "empty",
@@ -574,6 +561,19 @@
       "surah": 74,
       "code": "missing-verses",
       "message": "No explanation for verses: 17, 36"
+    },
+    {
+      "level": "warning",
+      "surah": 75,
+      "ayah": 6,
+      "code": "empty",
+      "message": "Empty explanation skipped (reported as missing)"
+    },
+    {
+      "level": "warning",
+      "surah": 75,
+      "code": "missing-verses",
+      "message": "No explanation for verses: 6"
     },
     {
       "level": "warning",
